@@ -1,0 +1,29 @@
+h2{
+    color: rgb(60, 105, 8);
+}
+
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+body{
+    background-color: burlywood;
+}
+
+span{
+    border: 2px solid red;
+}
+
+#border2{
+    border-top: 1px solid black;
+    border-left: 1px solid yellowgreen;
+    border-right: 1px solid blue;
+    border-width: 1px solid pink;
+}
+
+#paragrafoRodape{
+    border: 2px solid red;
+    border-radius: 8px;
+}
