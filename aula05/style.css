@@ -1,3 +1,40 @@
+body{
+   font-family: monospace; margin: 0px; margin-bottom: 500px;}
+
 h1{
-    color: brown;
+    
+}
+
+.titulo1{
+   display: inline-block;
+   height: 80px;
+}
+
+.titulo2{
+display: inline-block;
+height: 120px;
+}
+    
+.titulo3{
+display: inline-block;
+}
+
+.titulo4{
+display: inline-block none           ;
+}
+
+.azul{
+    background-color: blue; width: 100px}
+
+.red{
+    background-color: red; width: 200px;
+}
+
+.yellow{
+    background-color: yellow; width: 300px
+}
+
+.green{
+    background-color: green;
+    width: 400px; display: none;
 }
