@@ -5,11 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aula 09</title>
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-</head>
 
-<style>
+       
+</head>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+<style>         
     div {
         border: 3px solid;
         text-align: center;
@@ -22,10 +25,10 @@
     }
 </style>
 
-<body>
+<body style="min-height: 500px;">
     <h1 class="text-center bg-info-subtle p-3 m-0 border border-3 border-dark rounded rounded-pill">Aula 09</h1>
     <!-- Container -->
-    <main style="min-height: 500px;" class="container bg-secondary-subtle mt-3">
+    <main class="container bg-secondary-subtle mt-3">
         <!-- Primeira Linha (header) -->
         <div class="row p-2 text-center bg-danger-subtle">
             <p>row</p>
@@ -68,22 +71,47 @@
 
     </main>
 
-    <main style="margin-bottom: 500px; border: 2px solid; margin-top: 30px; height: 500px;" class="container p-2">
+    <main border: 2px solid; margin-top: 30px; height: 500px;" class="container p-2">
 
         <div class="row p-1 bg-danger-subtle">
-<!--primeira coluna-->
+            <!--primeira coluna-->
             <div class="col-2 bg bg-success-subtle d-flex">
                 <p class="fs-6">Flex Item</p>
             </div>
-<!--segunda coluna-->
+            <!--segunda coluna-->
             <div class="col-2 bg-success-subtle">
                 <p class="fs-6">Flex Item</p>
             </div>
-<!--terceira coluna-->
+            <!--terceira coluna-->
             <div class="col-2 bg-success-subtle">
-               <p class="fs-6 bg-success-subtle">Flex Item</p> 
+                <p class="fs-6 bg-success-subtle">Flex Item</p>
             </div>
         </div>
+    </main>
+
+    <!--Responsividade-->
+
+    <main class="container-sm border border-3 border-dark mt-5">
+        <h1 class="text-end text-md-start">Responsividade</h1>
+
+        <div class="d-none d-md-block bg-success">
+            tabela
+        </div>
+
+        <div class="d-block d-md-none bg-danger-subtle">
+            card
+        </div>
+
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-3">Item 1</div>
+          <div class="col-12 col-md-6 col-lg-3">Item 2</div>
+          <div class="col-12 col-md-6 col-lg-3">Item 3</div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <p> Entre em contato aqui <a href="https://api.whatsapp.com/send/?phone=85994064603&text&type=phone_number&app_absent=0"><i class="bi bi-book-half"></i></a></p>
+          </div>
+        </div>
+
+
     </main>
 
 </body>
