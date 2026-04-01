@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-br>
+<head>
+    <meta charset=" UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+</head>
+<script>
+
+    /*
+    let idade = parseInt(prompt('Digite sua idade'))
+    if (idade < 12) {
+        console.log('Classificação: Criança')
+    } else if (idade < 12) {
+        console.log('Classificação: Adolescente')
+    } else if (idade < 18) {
+        console.log('Classificação: Adulto')
+    } else if (idade < 60) {
+        console.log('Classificação: adulto')
+    } else {
+        console.log('Classificação Idoso')
+    } */
+
+    // faça um programa em js que valide se uma pessoa pode dirigir para isso ela precisa ter idade maior que 18 anos e ter carteira de motorista
+
+    /* let idade = parseInt(prompt('Digite sua idade'))
+    let carteira = confirm('Tem carteira de motorista ?')
+    console.log(idade,carteira)
+
+    if( idade>=18 && carteira == true){
+        console.log('Pode dirigir!')
+    }else{
+        console.log('Não pode dirigir!')
+    } */
+
+    // Faça um programa que aplique o desconto de um produto caso a pessoa seja estudante ou professor, se for outra profissão, coloque o preço normal
+
+
+    /* let profissão = prompt("Digite a profissão")
+     let idade = prompt('Digite sua idade')
+ 
+     if ( profissão === 'estudante' || profissão === 'professor' || idade < 10){
+         console.log('Você ganhou o desconto')
+     }else{
+         console.log('Você não ganhou o desconto')
+     } */
+
+
+    /* let logado = true
+
+    if (!logado){
+        console.log('Precisa logar!')
+    }else{
+        console.log{'Seja bem-vindo!'}
+    }
+
+
+      let logado = false
+
+    if (logado){
+        console.log('Seja bem-vindo!')
+    }else{
+        console.log('Precisa logar!')
+    } */
+
+    /*
+    1. Verificação de acesso ao cinema
+    Cire um programa que receba a idade e se a pessoa tem ingresso.
+    Ela só pode entrar se a idade for maior que 16 anos e tiver inresso
+
+    2.Vailidação de login
+    Crie um programa que peça o nome de usario e a senha, se o nome de usuario
+    for 'admin' e a senha for 'admin23' diga que ela conseguiu logar, se ela errar umas duas diga 'usuario não encontrado'
+
+    3.Frete Grátis
+    Crie um programa que receba o valor de uma compra e se o clinete é VIP. O
+    cliente ganhará frete grátis se a compro for mais que 1000 ou se for VIP.
+
+    */
+
+
+    /* 1. let idade = parseInt(prompt('Digite sua idade'))
+    let ingresso = confirm('Você possui ingresso?')
+    console.log(idade,ingresso)
+
+    if ( idade>=16 && ingresso === true){
+        console.log('Acesso Liberado')
+    }else{
+        console.log('Acesso Negado')
+    } */
+
+
+    /* 2. let valor = prompt('Digite o valor da sua compra')
+    let cliente = prompt('Você é cliente VIP?')
+
+    if ( valor === '1000' || cliente === 'sim'){
+        console.log('Você ganhou o Frete Grátis!')
+    }else{
+        console.log('Você não ganhou o Frete Grátis')
+    } */
+
+    /* 3. let tentativas = 0;
+    let usuario = prompt('Digite seu usuario')
+    let senha = prompt('Digite sua senha')
+
+    if ( usuario === 'admin' && senha === 'admin123'){
+        console.log('Você conseguiu logar');
+    }else{
+        tentativas++
+        console.log('Usuario ou senha incorretos.');
+    }
+
+    if (tentativas ===2) {
+        console.log('Usuario não encontrado')
+    } */
+
+
+    /* 4. let senha = prompt('Digite sua senha')
+    if ( senha === 'admin123'){
+        console.log('Acesso Liberado')
+    }else{
+        console.log('Acesso Negado')
+    } */
+
+
+    /* 5. let idade = prompt('Digite sua idade');
+     let convite = prompt('Você possui convite? (sim/não)').toLowerCase();
+     if ( idade < 16){
+         console.log('Entrada Proibida')
+     }else if( idade <16 && convite === "não"){
+         console.log('Precisa de convite')
+     }else if( idade >=16 && convite === "sim"){
+         console.log('Entrada Liberada')
+     } */
+
+
+    /* 6. let valor = parseInt(prompt('Digite o valor da compra'))
+    let vip = prompt('Você é usuario VIP? (sim/não)').toLowerCase()
+    let cupom = prompt('Você possui cupom? (sim/não)').toLowerCase()
+    console.log(valor, vip, cupom)
+    if (valor < 100 && vip === "não" && cupom === "não") {
+        console.log('Sem desconto')
+    } else if (valor === "100" && vip === "sim" && cupom === "sim") {
+        console.log('Você ganhou o desconto')
+    } */
+
+    /* 7.let salario = parseInt(prompt('Digite o valor do seu salario'))
+    let score = prompt('Qual seu score?')
+    let cliente = prompt ('Você é cliente antigo? (sim/não)')
+
+    if ( salario >=2000 && score >700 ){
+        console.log('Emprestimo Aprovado')
+    } else if (salario <2000 && score <700){
+        console.log('Acesso Negado')
+    } */
+
+    let idade = parseInt(prompt('Digite a idade'))
+
+    let mensagem = (idade >= 18) ? 'Pode acessr o sistema' : 'Não pode acessar o sistema'
+
+    console.log(mensagem)
+
+
+
+
+
+
+
+</script>
+
+<body>
+
+</body>
+
+</html>
