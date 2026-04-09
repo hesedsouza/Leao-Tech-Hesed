@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aula 15</title>
+</head>
+
+<script>
+ 
+/* 1 -  Você está desenvolvendo um sistema simples de menu para um aplicativo.
+
+Solicite ao usuário uma opção digitando:
+1 - Cadastrar usuário
+2 - Listar usuários
+3 - Sair do sistema
+
+Utilize switch para exibir a ação correspondente a cada opção. Caso o valor seja inválido, exiba "Opção inválida".
+Repita a solicitação até que a pessoa selecione a opção 3 para sair do sistema.
+
+
+let opcao = null
+
+while(opcao != '3'){
+   let opcao = prompt("Digite uma opção\n1 - Cadastrar\n2 - Listar\n3 - Sair")
+    switch (opcao){
+        case '1':
+            console.log('Cadastrado!!')
+            break;
+            case '2':
+                console.log('Listado!');
+                break;
+                case '3':
+                    console.log('Saindo"');
+                    break; 
+                    console.log('opcao invalida')
+    }
+    opcao = prompt("Digite uma opção\n1 - Cadastrar\n2 - Listar\n3 - Sair")
+} */ 
+
+
+
+
+/*
+
+2 - Crie um programa que seria uma lista de desejos, onde o usuário pode pedir 3 coisas e você mostra cada um dos pedidos na tela.
+
+
+for(let i = 0; 1 < 3; i++){
+    let desejo = prompt('Digite o primeiro item')
+    console.log(desejo)
+} */
+
+
+
+
+
+/* 3 - Crie um programa que receba um valor de compra e depois um número de parcelas, e depois mostre na tela o valor de cada parcela utilizando um for
+
+
+
+let valorCompra = Number(prompt('Digite o Valor da Compra'))
+let numeroParcelas = parseInt(prompt('Digite o número de parcelas'))
+
+while((numeroParcelas <= 0) || (numeroParcelas > 12)){
+    numeroParcelas = parseInt(prompt('Digite o número de parcelas'))
+}
+
+let parcelas = valorCompra/numeroParcelas
+for(let i = 1; i <= numeroParcelas; i++){
+    console.log(`Parcelas ${i} = ${parcela.tofixed(2)}`)   
+} */
+
+
+
+/*
+let nota 
+let aprovados = 0
+let recuperacao = 0
+
+for(let i = 0; i < 5; i++){
+
+    nota = parseFloat(prompt(`Digite a nota do aluno ${1+1}`))
+    if(nota >= 7){
+        console.log(`Aluno ${i+1} = Aprovado`)
+        aprovados++
+    }else{
+        console.log(`Aluno ${i+1} = Recuperaçãp`)
+        recuperacao++
+    }
+}
+
+console.log(`${aprovados} Alunos Aprovados`)
+console.log(`${recuperacao} Alunos de recuperação`)
+*/
+
+/*
+let quantidade = parseInt(prompt("Digite a quantidade de produtos"))
+let soma = 0
+
+for (let i = 0; i < quantidade; i++){
+    let preço = parseFloat(prompt('Digite o valor do produto'+ i + ":"));
+    soma += preço;
+}
+
+console.log("Total de compra: R$" + soma.toFixed(2)); */
+
+
+let nomes = ['Joao','Leticia','Maria','Pedro','Leticia', 'Jessica', 'Carlos','Caio']
+
+while(nomes.indexOf('Leticia') != -1){
+    let index = nomes.indexOf('Leticia') - 1
+    nomes.splice(index,1)
+    console.log(nomes)
+}
+
+console.log(nomes)
+console.log(nomes[2])
+nomes[1] = 'Davi'
+console.log(nomes)
+console.log(nomes.length)
+
+
+
+// Adicionar elementos no final do array
+nomes.push('Francisco','Francisca')
+
+// Adicionar elementos no inicio do array 
+nomes.unshift('Joana','Valentina')
+
+// Remover um elemento do final do array
+nomes.pop()
+
+// Remover um elemento do começo do array
+nomes.shift()
+
+console.log(nomes)
+
+// Adicionar ou remover elementos de uma posição especifica do array
+nomes.splice(1,1)
+nomes.splice(3,0,'Gabriel','Gabriela')
+
+// Copiar um intervalo de um array
+
+nomes2 = nomes.slice(0,5)
+console.log(nomes2  )
+
+
+let tamanho = nomes.length
+
+for(let i = 0; i < tamanho; i++){
+console.log('Seja bem-vindo $(nomes[i])')
+}
+
+console.log(nomes.includes('Leticia'))
+
+console.log(nomes.indexOf('Leticia'))
+
+
+
+</script>
+
+<body>
+    
+</body>
+</html>
