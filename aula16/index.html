@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-br
+">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <script>
+
+        //um sistema pede ao usuario o preço de 5 produtos. Armazene os valores em um array, e depois percorrar o array e mostre a soma dos preços dos produtos, o produto mais caro e o produto mais barato.
+
+        /* let precos = []
+          let preco = null
+  
+          for(let i=0;i < 5; i++){
+              preco = Number(prompt(`Digite o valor do produto ${i+i}`))
+              precos.push(preco)
+          }
+  
+          let soma = 0
+          
+          for(let i = 0; i<5 ; i++){
+              soma += precos[i]
+          }
+  
+          let min = preco[0]
+          let max = preco[0]
+  
+          for(let i= 0; i < 5; i++) {
+              if(min > precos[i]){
+                  min = preco[i]
+              }
+              if(max < precos[i]){
+                  max = preco[i]
+              }
+          }
+     precos.sort()
+             console.log(`A soma é ${soma}\nO menor preço é ${min}\oO maior preço é ${max}`); */
+
+
+        // Crie um sistem para cadastrar uma lista de convidados, o usuario terá duas opções, cadastrar convidado e sair, depois de cadastrar todos os convidados, crie um programa que peça para o usuario digitar seu nome e veja se ele está na lista de convidados, se tiver dê uma mensagem de boas vindas, se não tiver, diga que não foi convidade.
+
+        // Objetos no JavaScrip
+
+      /*  let carro = {
+            marca: 'BYD',
+            modelo: 'King',
+            cor: 'Branco',
+            ano: '2025',
+            opcionais: ['Multimidia', 'Aquecedor', 'Trava Eletrica', 'ABS'],
+            pneu:{
+                psi:32,
+                aro:15,
+                marcas:['Michelan','Pirelli']
+            }
+        }
+
+        console.log(`Marca = ${carro.marca}`)
+        console.log(`Marca = ${carro.modelo}`)
+        console.log(`segundo opcional = ${carro.opcionais[1]}`)
+
+
+        // criar uma nova propriedade ou atributo
+        carro.hibrido = false
+        // modificar uma propriedade        
+        carro.ano = 2026
+        // deletar
+        delete carro.hibrido 
+
+        //obter as chaves de um objeto
+
+        let chavesCarro = Object.keys(carro)
+
+        console.log(chavesCarro)
+
+
+        console.log(carro.pneu.marcas[0]) 
+
+        console.log(`Estrutura do objeto carro`)
+
+        for(let chave in carro){
+            console.log(`${chave} = ${carro[chave]}`)
+        }
+
+        console.log(`Marca = ${carro["marca"]}`) */
+
+    /*  let pessoa = {}
+        
+        pessoa.nome = prompt('Digite seu nome')
+        pessoa.cpf = prompt('Digite seu cpf')
+        pessoa.cidade = prompt('Digite sua cidade')
+        pessoa.idade = prompt('Digite sua idade')
+
+        console.log('Cadastro Realizado com Sucesso')
+        console.log(pessoa) */
+
+
+        let pessoas = []
+
+        pessoa1 = {
+            nome: 'Maria',
+            idade: '25',
+            cidade: 'Fortaleza',
+            cpf: '254.154.788-15'
+        }
+
+        pessoa2 = {
+            nome: 'Jessica',
+            idade: '29',
+            cidade: 'Fortaleza',
+            cpf: '358.154.788-15'
+        }
+
+        pessoa3 = {
+            nome: 'Mateus',
+            idade: '30',
+            cidade: 'Fortaleza',
+            cpf: '254.154.745-15'
+        }
+
+        pessoas.push(pessoa1, pessoa2, pessoa3)
+       
+
+        // Mostrar o nome das pessoas cadastradas
+
+        for(let i = 0; i < pessoas.length ; i++){
+            console.log(`${pessoas[i].nome} - ${pessoas[i].idade}`)
+        }
+
+
+
+    </script>
+
+</head>
+
+<body>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+
+</html>
